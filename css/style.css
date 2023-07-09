@@ -89,6 +89,11 @@ h3:before {
     position: absolute;
   }
 
+  .Parent-number-page{
+    color: #000;
+    display: flex;
+  }
+
   .Footer{
     display: flex;
   }
@@ -96,5 +101,13 @@ h3:before {
   .Footer-title{
     display: flex;
     flex-basis: 80%;
+    justify-content: space-around;
+    background: #333;
+    color: #fff;
   }
 
+  .Footer-image{
+    background: #000;
+    display: flex;
+    flex-basis: 20%;
+  }
