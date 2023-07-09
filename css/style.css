@@ -55,6 +55,7 @@ a{
 .Parent-Main-left-text{
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
 }
 
 .Parent-Main-right{
@@ -86,5 +87,14 @@ h3:before {
     left: 3%;
     top: 40%;
     position: absolute;
+  }
+
+  .Footer{
+    display: flex;
+  }
+
+  .Footer-title{
+    display: flex;
+    flex-basis: 80%;
   }
 
