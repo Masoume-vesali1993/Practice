@@ -48,11 +48,18 @@ a{
 .Parent-Main-left{
     display: flex;
     flex-basis: 80%;
-    background-color: aliceblue;
+    background-color: #fff;
+    color: #000;
+}
+
+.Parent-Main-left-text{
+    display: flex;
+    flex-direction: column;
 }
 
 .Parent-Main-right{
     display: flex;
+    flex-direction: column;
     flex-basis: 20%;
     background-color: #ccc;
 }
@@ -60,4 +67,24 @@ a{
 #Parent-img{
     padding: 22px 0 22px 0;
 }
+
+.Parent-left-part{
+    display: flex;
+}
+
+.Parent-part-text{
+    display: flex;
+    flex-direction: column;
+}
+
+h3:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    left: 3%;
+    top: 40%;
+    position: absolute;
+  }
 
