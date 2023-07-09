@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+.Parent-menu{
+    height: 80px;
+    display: flex;
+    background-color: #ccc;
+}
+
+.Parent-menu-number{
+    display: flex;
+    flex-basis: 85%;
+    padding-top: 20px;
+}
+
+.Parent-menu-number{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Parent-menu-search{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 20%;
+    padding-top: 20px;
+}
+
+.Parent-menu-one{
+    display: inherit;
+    flex-direction: column;
+}
+
+.Parent-menu-one img{
+    width: 42px;
+    transform: rotate(269deg);
+}
+
+.Parent-Main-page{
+    background-color: #eee;
+    color: aliceblue;
+    height: 1000px;
+}
+
+.Parent-Element{
+    display: flex;
+}
+
+.Parent-Main-left{
+    display: flex;
+    flex-basis: 80%;
+    background-color: aliceblue;
+}
+
+.Parent-Main-right{
+    display: flex;
+    flex-basis: 20%;
+    background-color: #ccc;
+}
+
+#Parent-img{
+    padding: 22px 0 22px 0;
+}
+
