@@ -2,9 +2,9 @@ a{
     text-decoration: none;
 }
 .Parent-menu{
-    height: 80px;
+    height: 62px;
     display: flex;
-    background-color: #ccc;
+    background-color: #E8E8E8;
 }
 
 .Parent-menu-number{
@@ -31,14 +31,16 @@ a{
 }
 
 .Parent-menu-one img{
-    width: 42px;
+    width: 19px;
     transform: rotate(269deg);
+    padding: 0 14px;
 }
 
 .Parent-Main-page{
-    background-color: #eee;
+    background-color: #EFF0F2;
     color: aliceblue;
     height: 1000px;
+    padding: 107px 80px;
 }
 
 .Parent-Element{
@@ -52,10 +54,18 @@ a{
     color: #000;
 }
 
+.Parent-Main-left img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 45px;
+    right: 25px;
+}
+
 .Parent-Main-left-text{
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .Parent-Main-right{
@@ -67,10 +77,21 @@ a{
 
 #Parent-img{
     padding: 22px 0 22px 0;
+    width: auto;
+    height: inherit;
+    display: inherit;
 }
 
 .Parent-left-part{
     display: flex;
+}
+
+.Parent-left-part img{
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 12px;
 }
 
 .Parent-part-text{
@@ -84,8 +105,8 @@ h3:before {
     width: 120px;
     height: 2px;
     background: #000;
-    left: 3%;
-    top: 40%;
+    left: 7%;
+    top: 52%;
     position: absolute;
   }
 
@@ -94,15 +115,23 @@ h3:before {
     display: flex;
   }
 
+  .Parent-number-page p{
+    padding: 0 17px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+
   .Footer{
     display: flex;
+    padding: 40px 0;
+    background: #000;
   }
 
   .Footer-title{
     display: flex;
     flex-basis: 80%;
     justify-content: space-around;
-    background: #333;
     color: #fff;
   }
 
@@ -110,4 +139,10 @@ h3:before {
     background: #000;
     display: flex;
     flex-basis: 20%;
+    
+  }
+
+  .Footer-image img{
+    width: 79%;
+    height: auto;
   }
