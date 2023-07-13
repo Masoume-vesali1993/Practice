@@ -31,9 +31,9 @@ a{
 }
 
 .Parent-menu-one img{
-    width: 19px;
+    width: 10px;
     transform: rotate(269deg);
-    padding: 0 14px;
+    padding: 0 20px;
 }
 
 .Parent-Main-page{
@@ -72,14 +72,11 @@ a{
     display: flex;
     flex-direction: column;
     flex-basis: 20%;
-    background-color: #ccc;
 }
 
 #Parent-img{
-    padding: 22px 0 22px 0;
-    width: auto;
-    height: inherit;
-    display: inherit;
+    height: 80px;
+    padding: 22px 63px 22px 0
 }
 
 .Parent-left-part{
@@ -144,5 +141,14 @@ h3:before {
 
   .Footer-image img{
     width: 79%;
-    height: auto;
+    height: 98px;
+    padding-top: 50px;
+  }
+
+  .Parent-Main-left{
+    background: #fff;
+  }
+
+  .Parent-Main-right{
+    background: #ccc;
   }
