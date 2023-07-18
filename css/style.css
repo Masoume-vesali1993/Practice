@@ -146,6 +146,11 @@ h3:before {
 
   .Parent-Main-left{
     background: #fff;
+    padding: 15px 0;
+  }
+
+  .Parent-Main-left-part{
+    margin-right: 20px;
   }
 
   .Parent-Main-right{
