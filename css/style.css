@@ -2,7 +2,7 @@ a{
     text-decoration: none;
 }
 .Parent-menu{
-    height: 62px;
+    height: 58px;
     display: flex;
     background-color: #E8E8E8;
 }
@@ -40,7 +40,7 @@ a{
     background-color: #EFF0F2;
     color: aliceblue;
     height: 1000px;
-    padding: 107px 80px;
+    padding: 68px 80px;
 }
 
 .Parent-Element{
@@ -52,19 +52,18 @@ a{
     flex-basis: 80%;
     background-color: #fff;
     color: #000;
+    height: 140px;
 }
 
 .Parent-Main-left img{
     width: 100px;
     height: 100px;
     position: relative;
-    top: 45px;
+    top: 20px;
     right: 25px;
 }
 
 .Parent-Main-left-text{
-    display: flex;
-    flex-direction: column;
     padding-right: 50px;
 }
 
@@ -151,4 +150,8 @@ h3:before {
 
   .Parent-Main-right{
     background: #ccc;
+  }
+
+  .Parent-Main-left:hover{
+    background-color: #FCFBED;
   }
