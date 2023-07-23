@@ -90,11 +90,6 @@ a{
     padding-right: 12px;
 }
 
-.Parent-part-text{
-    display: flex;
-    flex-direction: column;
-}
-
 h3:before {
     content: "";
     display: block;
@@ -151,6 +146,11 @@ h3:before {
 
   .Parent-Main-left-part{
     margin-right: 20px;
+  }
+
+  .Parent-Main-left-tow{
+    background: #eee;
+    padding: 10px 0;
   }
 
   .Parent-Main-right{
