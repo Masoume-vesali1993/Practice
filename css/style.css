@@ -1,3 +1,13 @@
+@font-face {
+  font-family: IRANSans;
+  src: url(../font/FontsFree-Net-ir_sans\ \(1\).ttf);
+}
+
+* {
+  font-family: IRANSans;
+}
+
+
 a{
     text-decoration: none;
 }
@@ -97,9 +107,11 @@ h3:before {
     width: 120px;
     height: 2px;
     background: #000;
-    left: 7%;
-    top: 52%;
-    position: absolute;
+    margin: auto 130px;
+    
+    /* left: 7%;
+    top: 52%; 
+    position: absolute; */
   }
 
   .Parent-number-page{
